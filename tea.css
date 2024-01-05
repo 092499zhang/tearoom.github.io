@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+.top {
+  display: flex;
+  /* padding: 0 50px; */
+  justify-content: space-between;
+  align-items: center;
+  /* height: 69px; */
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid grey;
+  background-color: black;
+  top: 0;
+}
+
+.logo {
+  /* margin: 10px; */
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+ text-decoration: underline; 
+ color: azure;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: seashell;
+  font-size: 23px;
+}
+
+.background {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin: 69px  40px;
+  height: 700px;
+  width: 100%;
+
+}
+
+.mission-container {
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1a49oka*_ga*ODYyOTU5MzAwNy4xNjg5NTIyNzQx*_ga_3LRZM6TM9L*MTcwNDQ3NjQxMC4yMS4xLjE3MDQ0NzY5MDEuMC4wLjA.);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 40px auto;
+  height: 700px;
+  max-width: 1200px;
+  display: flex;
+}
+
+.our-mission {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+.container {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pic {
+  margin-bottom: -10px;
+  width: 300px;
+  height: 200px;
+}
+
+#location {
+  margin: 40px auto;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*14zcqr0*_ga*ODYyOTU5MzAwNy4xNjg5NTIyNzQx*_ga_3LRZM6TM9L*MTcwNDQ3NjQxMC4yMS4xLjE3MDQ0Nzc1MDYuMC4wLjA.);
+background-repeat: no-repeat;
+background-position: center;
+  padding: 40px;
+  align-items: center;
+  height: 500px;
+}
+
+/* .location-top {
+  margin-top: ;
+} */
+.location-info {
+/* margin: auto; */
+display: flex;
+/* background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*14zcqr0*_ga*ODYyOTU5MzAwNy4xNjg5NTIyNzQx*_ga_3LRZM6TM9L*MTcwNDQ3NjQxMC4yMS4xLjE3MDQ0Nzc1MDYuMC4wLjA.);
+background-repeat: no-repeat;
+background-position: center; */
+justify-content: center;
+align-items: center;
+}
+
+.downtown {
+  margin: 15px 40px;
+  width: 300px;
+  height: 250px;
+  background-color: black;
+}
+
+
+.bayside {
+  margin: 15px 40px;
+  width: 300px;
+  height: 250px;
+  background-color: black;
+}
+.oakdale {
+  margin: 15px 40px;
+  width: 300px;
+  height: 250px;
+  background-color: black;
+}
+
+.down {
+  padding-bottom: 15px;
+}
+
+footer {
+  height: 200px;
+}
+
+.bottom-left {
+  margin: auto;
+  text-align: left;
+  max-width: 1200px;
+}
